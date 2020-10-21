@@ -9,14 +9,15 @@
 import Foundation
 import UIKit
 
-struct Ad_Struct {
-    let adCategory: String
+struct AdStruct {
+    let adID: UUID
+    let adCategory: [Any]
     var adName: String
     var adTitle: String
-    var adAdress: String
-    var adPrice: Int
+    var adAdress: [Any]
+    var adPrice: Decimal
 }
 
-struct Ad_Photos {
+struct AdPhotos {
     var adPhotos: [UIImage]
 }
