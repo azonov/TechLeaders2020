@@ -10,7 +10,10 @@ import Foundation
 import UIKit
 
 struct AdStruct {
-    let adID: UUID
+    
+    typealias ID = String
+    let adID: ID
+    
     let adCategory: [Any]
     var adName: String
     var adTitle: String
