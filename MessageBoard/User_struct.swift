@@ -2,23 +2,23 @@
 //  User description
 //  for MessageBoard
 //
-//  Created by safonpa on 18.10.2020.
+//  Created by safonpa on 26.10.2020.
 //
 
 import Foundation
 
 struct User {
-    let userID:Int
-    var userRegistr:UserRegistr
-    var userName:UserName
+    //let userID: Int
+    typealias UserID: String
+    let userID: UserID
+    var credentials: Credentials
+    var userName: String
 }
 
-struct UserRegistr {
-   let login:String
-   var password:String
+struct Credentials {
+   let login: String
+   var password: String
     
 }
-struct UserName {
-    let name, surname: String
-}
+
 
