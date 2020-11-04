@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Ad_list_screen: UITableViewController {
+class AdsListScreenViewController: UITableViewController {
 
     convenience init(ObjectID: MyItem) {
         self.init()
