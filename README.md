@@ -4,3 +4,5 @@
 
 [Andrey Zonov](https://github.com/azonov)
 [Vladislav Ralovich](https://github.com/Vonckad)
+[Balobanov Andrey](https://github.com/AndreiBP)
+[Safonov Pavel](https://github.com/safonpa)

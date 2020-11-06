@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E3DB3B0525372360003A67CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB3B042537235F003A67CE /* Model.swift */; };
+		84A130B1253CC80F002DA4DA /* User_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A130B0253CC80F002DA4DA /* User_struct.swift */; };
 		FBA1085C2531E48F00823118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1085B2531E48F00823118 /* AppDelegate.swift */; };
 		FBA108602531E48F00823118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1085F2531E48F00823118 /* ViewController.swift */; };
 		FBA108632531E48F00823118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA108612531E48F00823118 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		E3DB3B042537235F003A67CE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		84A130B0253CC80F002DA4DA /* User_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_struct.swift; sourceTree = "<group>"; };
 		FBA108582531E48F00823118 /* MessageBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA1085B2531E48F00823118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA1085F2531E48F00823118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		FBA1084F2531E48F00823118 = {
 			isa = PBXGroup;
 			children = (
+				84A130B0253CC80F002DA4DA /* User_struct.swift */,
 				FBA1085A2531E48F00823118 /* MessageBoard */,
 				FBA108592531E48F00823118 /* Products */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				E3DB3B0525372360003A67CE /* Model.swift in Sources */,
 				FBA108602531E48F00823118 /* ViewController.swift in Sources */,
+				84A130B1253CC80F002DA4DA /* User_struct.swift in Sources */,
 				FBA1085C2531E48F00823118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
