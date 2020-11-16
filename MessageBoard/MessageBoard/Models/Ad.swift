@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct AdStruct {
+struct Ad {
     
     typealias ID = String
     let adID: ID

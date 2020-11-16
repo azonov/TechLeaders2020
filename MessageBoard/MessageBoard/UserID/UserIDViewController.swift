@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserIDViewController: UIViewController {
+class UserIDViewController: UITableViewController {
     
     
 }

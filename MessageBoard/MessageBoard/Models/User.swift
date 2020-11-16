@@ -8,8 +8,8 @@
 import Foundation
 
 struct User {
-    //let userID: Int
-    typealias UserID: String
+    typealias UserID = String
+    
     let userID: UserID
     var credentials: Credentials
     var userName: String
