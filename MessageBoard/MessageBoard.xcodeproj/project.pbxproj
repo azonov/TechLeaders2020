@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3DB3B0525372360003A67CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB3B042537235F003A67CE /* Model.swift */; };
 		84A130B1253CC80F002DA4DA /* User_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A130B0253CC80F002DA4DA /* User_struct.swift */; };
+		CEE52D8C2551933300B6F9D8 /* Ads_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE52D8B2551933300B6F9D8 /* Ads_struct.swift */; };
+		CEE52D8E2551952800B6F9D8 /* Ad_list_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE52D8D2551952800B6F9D8 /* Ad_list_screen.swift */; };
+		CEE52D902551A1EA00B6F9D8 /* Ad_list_screen_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE52D8F2551A1EA00B6F9D8 /* Ad_list_screen_cell.swift */; };
+		E3DB3B0525372360003A67CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB3B042537235F003A67CE /* Model.swift */; };
 		FBA1085C2531E48F00823118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1085B2531E48F00823118 /* AppDelegate.swift */; };
 		FBA108602531E48F00823118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1085F2531E48F00823118 /* ViewController.swift */; };
 		FBA108632531E48F00823118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA108612531E48F00823118 /* Main.storyboard */; };
@@ -17,8 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E3DB3B042537235F003A67CE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		84A130B0253CC80F002DA4DA /* User_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_struct.swift; sourceTree = "<group>"; };
+		CEE52D8B2551933300B6F9D8 /* Ads_struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ads_struct.swift; sourceTree = "<group>"; };
+		CEE52D8D2551952800B6F9D8 /* Ad_list_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad_list_screen.swift; sourceTree = "<group>"; };
+		CEE52D8F2551A1EA00B6F9D8 /* Ad_list_screen_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad_list_screen_cell.swift; sourceTree = "<group>"; };
+		E3DB3B042537235F003A67CE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FBA108582531E48F00823118 /* MessageBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA1085B2531E48F00823118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA1085F2531E48F00823118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,8 +67,11 @@
 			children = (
 				FBA1085B2531E48F00823118 /* AppDelegate.swift */,
 				FBA1085F2531E48F00823118 /* ViewController.swift */,
+				CEE52D8D2551952800B6F9D8 /* Ad_list_screen.swift */,
+				CEE52D8B2551933300B6F9D8 /* Ads_struct.swift */,
 				E3DB3B042537235F003A67CE /* Model.swift */,
 				FBA108612531E48F00823118 /* Main.storyboard */,
+				CEE52D8F2551A1EA00B6F9D8 /* Ad_list_screen_cell.swift */,
 				FBA108642531E48F00823118 /* Assets.xcassets */,
 				FBA108662531E48F00823118 /* LaunchScreen.storyboard */,
 				FBA108692531E48F00823118 /* Info.plist */,
@@ -141,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3DB3B0525372360003A67CE /* Model.swift in Sources */,
+				CEE52D8C2551933300B6F9D8 /* Ads_struct.swift in Sources */,
 				FBA108602531E48F00823118 /* ViewController.swift in Sources */,
 				84A130B1253CC80F002DA4DA /* User_struct.swift in Sources */,
+				CEE52D8E2551952800B6F9D8 /* Ad_list_screen.swift in Sources */,
+				CEE52D902551A1EA00B6F9D8 /* Ad_list_screen_cell.swift in Sources */,
 				FBA1085C2531E48F00823118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
