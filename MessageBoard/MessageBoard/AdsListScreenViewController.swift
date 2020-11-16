@@ -8,14 +8,8 @@
 import UIKit
 
 class AdsListScreenViewController: UITableViewController {
-
-    @IBOutlet weak var photoImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var infoLabel: UILabel!
     
     convenience init(ObjectID: MyItem) {
         self.init()
     }
-    
-
 }
