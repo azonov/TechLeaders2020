@@ -17,7 +17,7 @@ struct Photo {
     var photos: UIImage
 }
 
-class MyItem {
+class Item {
     var item = [Items]()
     var myImage = UIImage()
     

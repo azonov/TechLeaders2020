@@ -9,7 +9,4 @@ import UIKit
 
 class AdsListScreenViewController: UITableViewController {
     
-    convenience init(ObjectID: MyItem) {
-        self.init()
-    }
 }

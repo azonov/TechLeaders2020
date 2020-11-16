@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMb-lw-zjO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMb-lw-zjO">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QV7-g9-L1b">
@@ -225,6 +225,7 @@
                                     <constraint firstItem="VS8-eP-E6A" firstAttribute="leading" secondItem="nMb-lw-zjO" secondAttribute="leading" constant="10" id="auN-9D-8LW"/>
                                     <constraint firstItem="VS8-eP-E6A" firstAttribute="top" secondItem="FRa-fA-Qi0" secondAttribute="bottom" constant="10" id="dfa-Mp-S7a"/>
                                     <constraint firstItem="Yx4-GV-phg" firstAttribute="top" secondItem="xI6-ja-40I" secondAttribute="bottom" constant="10" id="f9N-Ls-WSl"/>
+                                    <constraint firstAttribute="bottom" secondItem="Yx4-GV-phg" secondAttribute="bottom" constant="8" id="fbk-FB-QVT"/>
                                     <constraint firstItem="VS8-eP-E6A" firstAttribute="centerX" secondItem="nMb-lw-zjO" secondAttribute="centerX" id="gVf-K4-KlW"/>
                                     <constraint firstAttribute="trailing" secondItem="VS8-eP-E6A" secondAttribute="trailing" constant="10" id="hnT-RA-xeg"/>
                                     <constraint firstItem="nJ8-XH-oN3" firstAttribute="leading" secondItem="nMb-lw-zjO" secondAttribute="leading" constant="10" id="n8R-gy-3UF"/>
