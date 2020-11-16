@@ -266,7 +266,9 @@
         <scene sceneID="Jl6-be-Mzx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vhA-q5-MLa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="Og6-8a-le4"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ka0-Tx-bFy">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
