@@ -12,15 +12,25 @@ import UIKit
 struct Ad {
     
     typealias ID = String
-    let adID: ID
     
-    let adCategory: [Any]
-    var adName: String
-    var adTitle: String
-    var adAdress: [Any]
-    var adPrice: Decimal
+    let adID: ID
+    let category: AdCategory
+    let title: String
+    let description: String?
+    let photos: Photos
+    let adress: Adress?
+    let price: Decimal
 }
 
-struct AdPhotos {
-    var adPhotos: [UIImage]
+enum AdCategory {
+    case electronics
+}
+
+struct Photos {
+    let main: UIImage?
+    let all: [UIImage]
+}
+
+struct Adress {
+    let description: String
 }
