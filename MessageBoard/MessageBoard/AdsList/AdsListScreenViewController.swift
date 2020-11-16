@@ -9,4 +9,12 @@ import UIKit
 
 class AdsListScreenViewController: UITableViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // SetupUI
+    }
+    
+    //numberOfRowsInSection
+    //cellForRowAtIndexPath
 }

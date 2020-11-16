@@ -37,6 +37,5 @@ class DetailsViewController: UIViewController {
     }
     @IBAction func writeButtonAction(_ sender: Any) {
     }
- 
 }
 
