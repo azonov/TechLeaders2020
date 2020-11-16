@@ -21,6 +21,12 @@ class AdsListScreenViewController: UITableViewController {
         return vc
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        tableView.estimatedRowHeight = 82
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         ads.count
     }
