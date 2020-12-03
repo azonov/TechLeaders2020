@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vhA-q5-MLa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vhA-q5-MLa">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17115"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <!--Details View Controller-->
         <scene sceneID="Gab-hB-dYP">
             <objects>
-                <viewController id="osK-2j-LeA" customClass="DetailsViewController" customModule="MessageBoard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Details" id="osK-2j-LeA" customClass="DetailsViewController" customModule="MessageBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Djn-MA-hr0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
                                         <subviews>
                                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="NHn-jF-oF9">
-                                                <rect key="frame" x="146" y="264.5" width="122.5" height="27.5"/>
+                                                <rect key="frame" x="146" y="264.5" width="122" height="27.5"/>
                                             </pageControl>
                                         </subviews>
                                         <color key="backgroundColor" red="0.70891883389999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>

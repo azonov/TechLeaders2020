@@ -21,9 +21,10 @@ class AdsListScreenViewController: UITableViewController {
         return vc
     }
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tableView.estimatedRowHeight = 82
     }
     
@@ -42,5 +43,21 @@ class AdsListScreenViewController: UITableViewController {
         cell.photoImageView?.image = ad.photos.main
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        showDetailViewController(createDetailsViewController(index: indexPath), sender: nil)
+    }
+    
+    func createDetailsViewController(index: IndexPath) -> UIViewController {
+        
+        let storyboard = UIStoryboard(name: "Details", bundle: .main)
+        let detaiVC = (storyboard.instantiateViewController(identifier: "Details") as! DetailsViewController)
+        let ad = ads[index.row]
+        let imet = Items(title: ad.title, info: ad.description ?? "нет описания", price: ad.price)
+        
+        detaiVC.items = imet
+        return detaiVC
     }
 }
