@@ -12,8 +12,8 @@ class UserIDViewController: UITableViewController {
     let model = UserModel()
     var users: [User] = []
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidLoad() {
+        super.viewDidLoad()
         users = model.retreiveUsers()
     }
     
@@ -28,15 +28,13 @@ class UserIDViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        // make myIndexPath with fields row & section
-        let myIndexPath: IndexPath = indexPath
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UserCellIdentifier", for: myIndexPath)
+        let cell = tableView.dequeueReusableCell(
+            withIdentifier: "UserCellIdentifier",
+            for: indexPath
+        )
         if let myCell = cell as? UserIDTableViewCell{
-           //
-           
-            let mySection:Int = myIndexPath.section
-            let myRow:Int = myIndexPath.row
+            let mySection = indexPath.section
+            let myRow = indexPath.row
             
             let user = users[mySection]
             switch myRow {
@@ -55,13 +53,9 @@ class UserIDViewController: UITableViewController {
         
         return cell
     }
-    
-    
-    
+        
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "\(users[section].name)"
        
     }
-    
-    
 }
