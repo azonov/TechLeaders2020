@@ -8,8 +8,14 @@
 import UIKit
 
 class UserIDTableViewCell : UITableViewCell {
+ 		   
+    @IBOutlet weak var InfoLabel: UILabel!
+    @IBOutlet weak var ValueLabel: UILabel!
     
-    
+    override func awakeFromNib(){
+        super.awakeFromNib()
+        ValueLabel.textColor = UIColor.red
+    }
 }
 
 
